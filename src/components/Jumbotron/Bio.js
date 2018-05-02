@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Jumbotron } from "reactstrap";
+import "./jumbotron.css";
 
 class Bio extends Component {
   render() {

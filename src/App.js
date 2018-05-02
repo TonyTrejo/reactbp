@@ -8,11 +8,12 @@ import Card1 from "./components/Cards/Card1";
 import Card2 from "./components/Cards/Card2";
 import Card3 from "./components/Cards/Card3";
 import Footer from "./components/Footer/Footer";
-
+import "./App.css";
 
 class App extends Component {
   render() {
-    return <div className="container">
+    return (
+      <div className="container">
         <Header />
         <SlideShow />
         <Bio />
@@ -26,11 +27,11 @@ class App extends Component {
           <div className="col-sm">
             <Card3 />
           </div>
-          
         </div>
         <Break />
-        <Footer/>
-      </div>;
+        <Footer />
+      </div>
+    );
   }
 }
 

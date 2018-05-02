@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-//import "./nav.css";
+import "./header.css";
 
 class Header extends Component {
   render() {
@@ -8,9 +8,7 @@ class Header extends Component {
         <nav className="navbar navbar-inverse navbar-top">
           <div className="container-fluid">
             <div className="navbar-header">
-              <a href="/" className="navbar-brand">
-                Welcome Bar
-              </a>
+              <p>Welcome to Website</p>
             </div>
               <div />
           </div>

@@ -9,6 +9,7 @@ import {
   Button
 } from "reactstrap";
 import I from "../Modal/modal-1";
+import "./card.css";
 
 const C1 = props => {
   return (
